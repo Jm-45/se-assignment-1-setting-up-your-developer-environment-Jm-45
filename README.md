@@ -13,6 +13,7 @@ This assignment aims to familiarize you with the tools and configurations necess
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 3. Set Up Version Control System:
@@ -36,6 +37,108 @@ This assignment aims to familiarize you with the tools and configurations necess
 9. Document Your Setup:
     Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
+STEPS TAKEN TO SET UP DEVELOPER ENVIRONMENT
+
+
+
+1. Choose an Operating System
+Download and Install Windows 11:
+
+URL: Windows 11 Download
+Steps:
+Visit the Windows 11 download page.
+Follow the instructions to create a bootable USB or upgrade your existing Windows installation.
+Install Windows 11 by following the on-screen instructions during setup.
+2. Install a Text Editor or Integrated Development Environment (IDE)
+Download and Install Visual Studio Code:
+
+URL: Visual Studio Code Download
+Steps:
+Visit the Visual Studio Code download page.
+Download the installer for Windows.
+Run the installer and follow the on-screen instructions.
+3. Set Up Version Control System
+Install Git:
+
+URL: Git Download
+Steps:
+Download the Git installer for Windows.
+Run the installer and follow the on-screen instructions.
+Open Git Bash and configure your Git settings:
+bash
+Copy code
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+Create a GitHub Account:
+
+URL: GitHub
+Steps:
+Visit GitHub.
+Sign up for a new account.
+Initialize a Git Repository:
+
+Steps:
+Navigate to your project directory:
+bash
+Copy code
+cd /path/to/your/project
+Initialize a new Git repository:
+bash
+Copy code
+git init
+Make your first commit:
+bash
+Copy code
+git add .
+git commit -m "Initial commit"
+4. Install Necessary Programming Languages and Runtimes
+Install Python:
+
+URL: Python Download
+Steps:
+Visit the Python download page.
+Download and install the latest version of Python.
+Ensure Python is added to your PATH during installation.
+Verify the installation:
+bash
+Copy code
+python --version
+5. Install Package Managers
+Install pip:
+
+Steps:
+pip is included by default with Python. Verify it by:
+bash
+Copy code
+pip --version
+6. Configure a Database (MySQL)
+Download and Install MySQL:
+
+URL: MySQL Installer Download
+Steps:
+Visit the MySQL download page.
+Download the MySQL installer for Windows.
+Run the installer and follow the setup wizard to install and configure the MySQL server.
+7. Set Up Development Environments and Virtualization (Optional)
+Consider Using Docker:
+
+URL: Docker Download
+Steps:
+Visit the Docker download page.
+Download and install Docker Desktop for Windows.
+Follow the setup instructions to configure Docker.
+8. Explore Extensions and Plugins
+Install Extensions for Visual Studio Code:
+
+Steps:
+Open Visual Studio Code.
+Go to the Extensions view by clicking on the Extensions icon in the Activity Bar or pressing Ctrl+Shift+X.
+Search for and install useful extensions such as:
+Python
+GitLens
+Docker
+Prettier - Code formatter
+ESLint
 #Deliverables:
 - Document detailing the setup process with step-by-step instructions and screenshots where necessary.
 - A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
